@@ -20,7 +20,7 @@ const renderDrawn = (nums: number[]) => {
 const renderSaved = (items: any[]) => {
   return (
     items.map((drawn: number[],n1) => (
-      <div key={n1} className="flex flex-row mx-auto my-5">  
+      <div key={n1} className="flex flex-row mx-auto my-1">  
         {drawn.map((number: number,n2) => (
           <Number key={n2} value={number}/>
         ))}
