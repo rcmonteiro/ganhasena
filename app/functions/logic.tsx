@@ -24,6 +24,7 @@ const renderSaved = (items: any[]) => {
         {drawn.map((number: number,n2) => (
           <Number key={n2} value={number}/>
         ))}
+        <button className="bg-blue-500 hover:bg-blue-400 text-white size-6 leading-6 text-base mx-1 text-center align-middle rounded-full">x</button>
       </div>
     ))
   )
