@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <header className="container flex justify-center mx-auto">
-          <h1 className={`${logo.className} flex flex-row mx-auto my-5 text-violet-500 text-7xl`}>Ganha Sena</h1>
+          <h1 className={`${logo.className} flex flex-row text-center mx-auto my-5 text-violet-500 text-7xl`}>Ganha Sena</h1>
         </header>
         {children}
       </body>
