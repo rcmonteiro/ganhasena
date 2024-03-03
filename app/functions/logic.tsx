@@ -1,4 +1,4 @@
-import Number from "../components/Number"
+import Number from "../_components/Number"
 
 const drawNumbers = (numbers: any[]): number[] => {
   

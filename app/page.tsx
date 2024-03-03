@@ -3,8 +3,8 @@
 import { useEffect, useState } from "react";
 import { drawNumbers,renderDrawn,renderSaved } from "./functions/logic"
 import { ArrowPathIcon, ArrowDownTrayIcon } from '@heroicons/react/24/outline';
-import Toast from "./components/Toast";
-import Saved from "./components/Saved";
+import Toast from "./_components/Toast";
+import Saved from "./_components/Saved";
 
 export default function Main() {
 
